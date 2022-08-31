@@ -39,7 +39,7 @@ fetch('./data.json')
         ${bgDiv}
         <div class="first-container">
           <div class="div-img">
-            <img class="logo" src="${data[i].logo}" alt="${data[i].company}" />
+            <img class="logo" src=".${data[i].logo}" alt="${data[i].company}" />
           </div>
 
           <div class="desc">
@@ -203,7 +203,7 @@ main.addEventListener('click',(e)=>{
                                     ${bgDiv}
                                     <div class="first-container">
                                     <div class="div-img">
-                                        <img class="logo" src="${data[i].logo}" alt="${data[i].company}" />
+                                        <img class="logo" src=".${data[i].logo}" alt="${data[i].company}" />
                                     </div>
                             
                                     <div class="desc">
@@ -312,7 +312,7 @@ main.addEventListener('click',(e)=>{
                         ${bgDiv}
                         <div class="first-container">
                           <div class="div-img">
-                            <img class="logo" src="${data[i].logo}" alt="${data[i].company}" />
+                            <img class="logo" src=".${data[i].logo}" alt="${data[i].company}" />
                           </div>
                 
                           <div class="desc">
